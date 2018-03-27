@@ -6,8 +6,8 @@ class App < Sinatra::Base
     erb :reversename
   end
 
-  get 'square/:number' do
-    "Hello World"
+  get '/square/:number' do
+    erb :square
   end
 
   get '/say/:number/:phrase' do
