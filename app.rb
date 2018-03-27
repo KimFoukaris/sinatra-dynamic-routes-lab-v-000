@@ -7,7 +7,7 @@ class App < Sinatra::Base
   end
 
   get 'square/:number' do
-    erb :squared
+    "Hello World"
   end
 
   get '/say/:number/:phrase' do
